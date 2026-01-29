@@ -8,11 +8,19 @@ int main() {
         for (int j = 1; j <= n - i; j++) {
             cout << " ";
         }
-        for (int k = 1; k <= i; k++) {
+        for (int j= 1; j<= i; j++) {
+            if(j%2 != 0){
             cout << "*";
+           }else{
+               cout<<"!";
+           }
         }
         for (int j = 2; j <= i; j++){
-            cout<<"*";
+            if((i+j)%2 != 0){
+            cout<<"!";
+            }else{
+                cout<<"*";
+            }
         }
         cout << endl;
     }
