@@ -1,9 +1,9 @@
 // Question;-
-//         *  
-//       * * *  
-//     * * * * *  
-//   * * * * * * *  
-// * * * * * * * * *
+//         1  
+//       1 1 1  
+//     1 1 1 1 1  
+//   1 1 1 1 1 1 1  
+// 1 1 1 1 1 1 1 1 1
 
 #include <iostream>
 using namespace std;
@@ -16,10 +16,10 @@ int main() {
             cout << " ";
         }
         for (int k = 1; k <= i; k++) {
-            cout << "*";
+            cout << "1";
         }
         for (int j = 2; j <= i; j++){
-            cout<<"*";
+            cout<<"1";
         }
         cout << endl;
     }
